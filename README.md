@@ -2,7 +2,7 @@
 
 ## Challenge Questions
 
-Please navigate to [fall-2022-data-science-intern-challenge.md](/fall-2022-data-science-intern-challenge.md) for answers to the challenge questions.
+Please navigate to [fall-2022-data-science-intern-challenge.md](/fall-2022-data-science-intern-challenge.md) for the answers to challenge questions.
 
 ## Running the Program
 1. Start the command line (terminal for MacOS users) in the root directory that contains `question1.py` file
