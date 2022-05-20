@@ -31,6 +31,7 @@ Q3 = order_data['order_amount'].quantile(0.75)
 
 IQR = Q3 - Q1
 
+# Determine the average AOV using the IQR method
 normal_order_values_IQR = (order_data['order_amount'] < (Q3 + 1.5 * IQR)) & (order_data['order_amount'] > (Q1 - 1.5 * IQR))
 cleaned_data3 = order_data[normal_order_values_IQR]
 print('Adjusted AOV (by IQR) = $', round(cleaned_data3['order_amount'].mean(), 2))
