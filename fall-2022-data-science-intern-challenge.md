@@ -2,7 +2,7 @@
 
 ## Question 1
 
-Please refer to the program [question1.py]('./question1.py')
+Please refer to the program [question1.py](/question1.py)
 
 ### a.	Think about what could be going wrong with our calculation. Think about a better way to evaluate this data.
 
@@ -85,4 +85,3 @@ LIMIT(1)));`
 
  **Answer: Mozzarella di Giovanni (also tied with Raclette Courdavault and Gorgonzola Telino)**
 
- 
