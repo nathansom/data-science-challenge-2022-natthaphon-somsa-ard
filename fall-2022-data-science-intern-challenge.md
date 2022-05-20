@@ -84,5 +84,5 @@ ORDER BY
 COUNT(ProductID) DESC
 LIMIT(1)));`
 
- **Answer: Mozzarella di Giovanni (also tied with Raclette Courdavault and Gorgonzola Telino)**
+ **Answer: Mozzarella di Giovanni (also tied with Raclette Courdavault and Gorgonzola Telino as the three products have exactly the same frequency values – the LIMIT at the end of the query can be changed to 3 in this case)**
 
