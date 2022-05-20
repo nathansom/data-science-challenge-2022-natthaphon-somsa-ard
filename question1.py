@@ -33,5 +33,4 @@ IQR = Q3 - Q1
 
 normal_order_values_IQR = (order_data['order_amount'] < (Q3 + 1.5 * IQR)) & (order_data['order_amount'] > (Q1 - 1.5 * IQR))
 cleaned_data3 = order_data[normal_order_values_IQR]
-print((Q3 + 1.5 * IQR))
 print('Adjusted AOV (by IQR) = $', round(cleaned_data3['order_amount'].mean(), 2))
