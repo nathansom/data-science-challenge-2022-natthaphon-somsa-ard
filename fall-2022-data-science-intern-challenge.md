@@ -56,6 +56,7 @@ ORDER BY
 COUNT(ProductID) DESC;`
 
 **Step 2: Select the product ID(s) with highest frequency**
+
 `SELECT ProductID
 FROM (SELECT Orders.OrderID, OrderDetails.ProductID, Customers.Country
 FROM Orders
